@@ -49,8 +49,8 @@ class CfgVehicles {
     class ViewPilot;
     class Withes_Umbrella: Heli_Light_01_base_F {
         armor = 100;
-        altFullForce = 100; /// in what height do the engines still have full thrust
-        altNoForce = 5; /// thrust of the engines interpolates to zero between altFullForce and altNoForce
+        altFullForce = 2000; /// in what height do the engines still have full thrust
+        altNoForce = 7000; /// thrust of the engines interpolates to zero between altFullForce and altNoForce
         maxSpeed = 80; /// what is the maximum speed of the vehicle
         maxFordingDepth = 99; /// how deep could the vehicle be in water without getting some damage
         hasDriver = true;	// default
